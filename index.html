@@ -15,7 +15,26 @@
 
 html, body {
   width:100%; min-height:100vh;
-  overflow-x:hidden; cursor:none;
+  overflow-x:hidden;
+}
+
+#cursor {
+  position:fixed; width:12px; height:12px;
+  background:rgba(255,215,0,.85);
+  border-radius:50%; pointer-events:none;
+  transform:translate(-50%,-50%);
+  box-shadow:0 0 8px 2px rgba(255,215,0,.5);
+  z-index:9999; transition:transform .08s ease;
+}
+.sparkle {
+  position:fixed; width:5px; height:5px;
+  background:rgba(255,215,0,.7); border-radius:50%;
+  pointer-events:none; transform:translate(-50%,-50%);
+  animation:sparkle-fade .7s ease forwards; z-index:9998;
+}
+@keyframes sparkle-fade {
+  0%   { opacity:1; transform:translate(-50%,-50%) scale(1); }
+  100% { opacity:0; transform:translate(-50%,-150%) scale(0.3); }
 }
 body {
   display:flex;
