@@ -12,8 +12,8 @@ const PHOTOS = [
 const TRACKS = [
   { title: 'Eres Mi Religión — Maná',                   src: 'audio/eres-mi-religion.mp3' },
   { title: 'Bendita Tu Luz — Maná ft. Juan Luis Guerra', src: 'audio/bendita-tu-luz.mp3' },
-  { title: 'Aunque No Sea Conmigo — Maná',               src: 'audio/aunque-no-sea-conmigo.mp3' },
-  { title: 'Contigo',                                    src: 'audio/contigo.mp3' },
+  { title: 'Aunque No Sea Conmigo — Bunbury',               src: 'audio/Aunque no sea con migo - Bunbury.mp3' },
+  { title: 'Contigo - Elefate',                                    src: 'audio/Contigo - Elefante' },
   { title: "I Was Made For Lovin' You — KISS",           src: 'audio/kiss-i-was-made-for-lovin-you.mp3' },
   { title: 'Wind of Change — Scorpions',                 src: 'audio/wind-of-change.mp3' },
 ];
